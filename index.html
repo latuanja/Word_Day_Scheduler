@@ -2,15 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.5.1.min.js"></script>
+    
+    
+
     <link rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-    <link ref="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="assets/style.css" />
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+      <link ref="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet">
+      
+    <link rel="stylesheet" type="text.css" href="assets/style.css">
+
     <title>Work Day Scheduler</title>
+
   </head>
 
   <body>
@@ -24,24 +31,36 @@
         <!--Main Body:
           <!-- A fluid container that uses the full witdh -->
         </div>
-        internal columns (add 8 times to simulate 8 hr working day):
+<!--internal columns (add 8 times to simulate 8 hr working day)-->
         <div class="container">
           <div class="row">
+            <p class="time-block">8:00am</p>
+           
+            <div class="col-2">
+              <p class="events">Column for Events</p>
+            </div>
+            
             <div class="col-2">
               <!-- Content -->
             </div>
-            <div class="col-2">
-              <!-- Content -->
-            </div>
+            
             <div class="col-8">
-              <!-- Content -->
+              <!-- saveBtin -->
             </div>
           </div>
         </div>
       <!-- Timeblocks go here -->
     </div>
-
+        <!--Script Links-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script type="text/javascript" src="assets/script.js"></script>
+    <script> 
+      
+
+     
+    </script>
+    });
+    
   </body>
 </html>
