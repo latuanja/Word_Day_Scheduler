@@ -17,8 +17,11 @@ This website was created with HTML, Javascript/JQuery, Moment.js & CSS.
 
 ##Summary 
 This app uses the moment.js features to determine the current time and compare it with the future time for a planner.  
+<<<<<<< HEAD
 
 ![](assets/Readme_Screenshot.png)
 
 GitHub Repo: https://github.com/latuanja/Work_Day_Scheduler
 Deployed Site: https://latuanja.github.io/Work_Day_Scheduler/
+=======
+>>>>>>> a98b43ee2e99c65937c85b393ebcfcc81a8e3708
